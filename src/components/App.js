@@ -18,9 +18,9 @@ function App() {
             <AuthProvider>
               <Routes>
                 {/* <PrivateRoute exact path="/" element = {<Dashboard/>} /> */}
-                <Route exact path="/" element = {<Dashboard/>} />
+                <Route exact path="/" element = {<Login/>} />
                 <Route path='/signup' element={<Signup/>} />
-                <Route path='/login' element={<Login/>} />
+                <Route path='/dashboard' element={<Dashboard/>} />
                 <Route path='/forgot-password' element = {<ForgotPassword/>} />
               </Routes>
             
